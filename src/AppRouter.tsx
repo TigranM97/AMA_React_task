@@ -7,7 +7,7 @@ export const AppRouter = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="damage" element={<DamageSelectorPage />} />
+        <Route path="/" element={<DamageSelectorPage />} />
       </Routes>
     </BrowserRouter>
   );

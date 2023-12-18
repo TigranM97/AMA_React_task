@@ -1,7 +1,7 @@
 import { useUnit } from "effector-react";
 import { DamageButton, Car, Loader } from "../../components";
 import * as model from "../../store";
-import { PARTS } from "../costants";
+import { PARTS } from "./constants";
 import { useState } from "react";
 
 export const DamageSelectorContainer = () => {
